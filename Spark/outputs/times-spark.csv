@@ -1,0 +1,6 @@
+delay_type,run_for,time_taken
+CarrierDelay,1,7.197235345840454
+NASDelay,1,6.950042486190796
+LateAircraftDelay,1,6.860754013061523
+SecurityDelay,1,6.789129018783569
+WeatherDelay,1,6.651527404785156

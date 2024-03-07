@@ -10,4 +10,4 @@ do
     echo "done";
     total_time_taken=$(echo $total_time_taken $time_taken | awk '{print $1 + $2}')
 done
-echo "$delay_type,$2,$time_taken" >> $2;
+echo "$delay_type,$3,$total_time_taken" >> $2;

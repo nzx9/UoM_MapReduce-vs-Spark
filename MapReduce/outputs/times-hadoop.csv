@@ -1,0 +1,6 @@
+delay_type,run_for,time_taken
+carrier-delay,1,15.915
+late-aircraft-delay,1,17.035
+nas-delay,1,12.845
+security-delay,1,16.18
+weather-delay,1,12.752
