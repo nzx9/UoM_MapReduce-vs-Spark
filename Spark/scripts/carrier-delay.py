@@ -8,7 +8,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--times-file', help="File to save execution time")
     parser.add_argument(
-        '--run-for', help="How many times to run")
+        '--run-for', help="How many times to run", default=1)
     args = parser.parse_args()
 
     result = execute("CarrierDelay", args.times_file, args.run_for)
