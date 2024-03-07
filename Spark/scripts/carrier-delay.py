@@ -1,3 +1,15 @@
 from executer import execute
+import sys
+import argparse
 
-result = execute("CarrierDelay")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--times-file', help="File to save execution time")
+    parser.add_argument(
+        '--run-for', help="How many times to run")
+    args = parser.parse_args()
+
+    result = execute("CarrierDelay", args.times_file, args.run_for)
+    sys.exit(result)
